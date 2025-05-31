@@ -13,25 +13,28 @@
 # Google Map
 # Client Carousel
 --------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
 :root {
-  --villoz-font: "Plus Jakarta Sans", sans-serif;
-  --villoz-heading-font: "Plus Jakarta Sans", serif;
+  --villoz-font: "Open Sans", sans-serif;
+  --villoz-heading-font: "Cinzel", serif;
   --villoz-special-font: "reeyregular", cursive;
   --villoz-text: #737a83;
   --villoz-text-rgb: 115, 122, 131;
-  --villoz-text-dark: #859ab7;
+  --villoz-text-dark: #b89c758e;
   --villoz-text-dark-rgb: 133, 154, 183;
   --villoz-text-gray: #89868d;
   --villoz-text-gray-rgb: 137, 134, 141;
-  --villoz-base: #537eac;
+  --villoz-base: #425141;
   --villoz-base-rgb: 83, 126, 172;
   --villoz-gray: #f0f6fd;
   --villoz-gray-rgb: 240, 246, 253;
   --villoz-white: #fff;
   --villoz-white-rgb: 255, 255, 255;
-  --villoz-black: #132742;
+  --villoz-black: #b89c75;
   --villoz-black-rgb: 19, 39, 66;
-  --villoz-black2: #0e1e34;
+  --villoz-black2: #425141;
   --villoz-black2-rgb: 14, 30, 52;
   --villoz-black3: #000;
   --villoz-black3-rgb: 0, 0, 0;
@@ -248,7 +251,7 @@
 # Common
 --------------------------------------------------------------*/
 body {
-  font-family: var(--villoz-font, "Plus Jakarta Sans", sans-serif);
+  font-family: var(--villoz-font, "Cinzel", sans-serif);
   color: var(--villoz-text, #737a83);
   font-size: 16px;
   line-height: 2.125;
@@ -293,7 +296,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--villoz-heading-font, "Plus Jakarta Sans", serif);
+  font-family: var(--villoz-heading-font, "Cinzel", serif);
   color: var(--villoz-black, #132742);
   font-weight: 600;
 }
@@ -392,7 +395,7 @@ h6 {
   color: #fff;
   font-size: 14px;
   font-weight: 600;
-  font-family: var(--villoz-font, "Plus Jakarta Sans", sans-serif);
+  font-family: var(--villoz-font, "Cinzel", sans-serif);
   transition: 500ms;
   padding: 0;
   position: relative;
@@ -590,7 +593,7 @@ h6 {
   animation-iteration-count: infinite;
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: 60px auto;
+  background-size: 100px auto;
   width: 100%;
   height: 100%;
 }
@@ -787,7 +790,7 @@ h6 {
 .sec-title__title {
   margin: 0;
   font-size: 30px;
-  color: var(--villoz-black, #132742);
+  color: var(--villoz-black2, #132742);
   font-weight: 600;
   line-height: 1.2em;
   margin-bottom: -10px;
@@ -807,16 +810,17 @@ h6 {
   background-image: none;
   background-color: var(--villoz-black, #132742);
   color: var(--villoz-white, #fff);
-  font-family: var(--villoz-font, "Plus Jakarta Sans", sans-serif);
+  font-family: var(--villoz-font, "Cinzel", sans-serif);
+  transform: scaleX(-1);
 }
 
 .ui-datepicker-calendar th span {
-  font-family: var(--villoz-font, "Plus Jakarta Sans", sans-serif);
+  font-family: var(--villoz-font, "Cinzel", sans-serif);
 }
 .ui-datepicker-calendar td {
   background-color: var(--villoz-gray, #f0f6fd);
   background-image: none;
-  font-family: var(--villoz-font, "Plus Jakarta Sans", sans-serif);
+  font-family: var(--villoz-font, "Cinzel", sans-serif);
   color: var(--villoz-text, #737a83);
 }
 .ui-datepicker-calendar td a {
@@ -1601,7 +1605,7 @@ h6 {
   text-align: center;
   align-items: center;
   font-size: 12px;
-  font-family: var(--villoz-font, "Plus Jakarta Sans", sans-serif);
+  font-family: var(--villoz-font, "Cinzel", sans-serif);
   color: var(--villoz-text, #737a83);
   padding: 0 0px;
   padding-bottom: 3px;
@@ -1890,7 +1894,7 @@ h6 {
   text-align: center;
   align-items: center;
   font-size: 12px;
-  font-family: var(--villoz-font, "Plus Jakarta Sans", sans-serif);
+  font-family: var(--villoz-font, "Cinzel", sans-serif);
   color: var(--villoz-text, #737a83);
   padding: 0 0px;
   padding-bottom: 3px;
@@ -2965,7 +2969,7 @@ h6 {
   font-size: 14px;
   line-height: 26px;
   color: var(--villoz-text, #737a83);
-  font-family: var(--villoz-font, "Plus Jakarta Sans", sans-serif);
+  font-family: var(--villoz-font, "Cinzel", sans-serif);
   font-weight: 500;
   display: flex;
   padding: 8px 20px;
@@ -3283,7 +3287,7 @@ body.megamenu-popup-active .mobile-nav__content {
   align-items: center;
   justify-content: center;
   transition: all 600ms ease;
-  color: var(--villoz-base, #537eac);
+  color: rgb(240, 246, 253);
   font-size: 62px;
   border-radius: 50%;
   margin-bottom: 7px;
@@ -3502,7 +3506,7 @@ body.megamenu-popup-active .mobile-nav__content {
   margin: 0;
   color: var(--villoz-black, #132742);
   font-size: 40px;
-  font-family: var(--villoz-font, "Plus Jakarta Sans", sans-serif);
+  font-family: var(--villoz-font, "Cinzel", sans-serif);
   font-weight: 500;
   line-height: 1;
   margin-bottom: 0px;
@@ -3663,7 +3667,7 @@ body.megamenu-popup-active .mobile-nav__content {
 .funfact-three__count {
   margin: 0;
   color: var(--villoz-black, #132742);
-  font-family: var(--villoz-font, "Plus Jakarta Sans", sans-serif);
+  font-family: var(--villoz-font, "Cinzel", sans-serif);
   font-size: 35px;
   font-weight: 500;
   line-height: 1;
@@ -3892,7 +3896,7 @@ body.megamenu-popup-active .mobile-nav__content {
   margin: 0;
   font-weight: 600;
   line-height: 1;
-  color: #c2ddf9;
+  color: White;
   font-size: 12px;
 }
 .testimonials-card__bottom-bg {
@@ -4282,7 +4286,7 @@ body.megamenu-popup-active .mobile-nav__content {
   font-size: 24px;
   line-height: 40px;
   color: var(--villoz-black, #132742);
-  font-family: var(--villoz-heading-font, "Plus Jakarta Sans", serif);
+  font-family: var(--villoz-heading-font, "Cinzel", serif);
   font-weight: 700;
   font-style: italic;
   margin: 0 40px 36px 50px;
@@ -4470,7 +4474,7 @@ body.megamenu-popup-active .mobile-nav__content {
   margin: 0 0 14px;
 }
 .cta-three__text {
-  color: #c2ddf9;
+  color: White;
   line-height: 30px;
   margin: 0;
 }
@@ -5021,7 +5025,7 @@ body.megamenu-popup-active .mobile-nav__content {
 }
 .sidebar__comments__title {
   margin: 0;
-  font-family: var(--villoz-font, "Plus Jakarta Sans", sans-serif);
+  font-family: var(--villoz-font, "Cinzel", sans-serif);
   font-size: 15px;
   line-height: 24px;
   font-weight: 500;
@@ -5153,7 +5157,7 @@ body.megamenu-popup-active .mobile-nav__content {
   line-height: 30px;
   border: none;
   outline: none;
-  font-family: var(--villoz-font, "Plus Jakarta Sans", sans-serif);
+  font-family: var(--villoz-font, "Cinzel", sans-serif);
   padding: 0;
   background-color: transparent;
 }
@@ -5308,7 +5312,7 @@ body.megamenu-popup-active .mobile-nav__content {
   font-size: 13px;
   font-weight: 500;
   text-transform: capitalize;
-  font-family: var(--villoz-font, "Plus Jakarta Sans", sans-serif);
+  font-family: var(--villoz-font, "Cinzel", sans-serif);
   border: none;
   outline: none;
   padding: 0 30px;
@@ -5330,7 +5334,7 @@ body.megamenu-popup-active .mobile-nav__content {
   font-weight: 500;
   height: 50px;
   text-transform: capitalize;
-  font-family: var(--villoz-font, "Plus Jakarta Sans", sans-serif);
+  font-family: var(--villoz-font, "Cinzel", sans-serif);
 }
 .villa-details-sidebar__control .bootstrap-select > .dropdown-toggle {
   display: flex;
@@ -5818,7 +5822,7 @@ body.megamenu-popup-active .mobile-nav__content {
   background-color: transparent;
   padding-left: 30px;
   padding-right: 30px;
-  font-family: var(--villoz-font, "Plus Jakarta Sans", sans-serif);
+  font-family: var(--villoz-font, "Cinzel", sans-serif);
   font-size: 14px;
   color: var(--villoz-text, #737a83);
   border: 1px solid var(--villoz-border-color, #d6e2f0);
@@ -5876,7 +5880,7 @@ body.megamenu-popup-active .mobile-nav__content {
   line-height: 30px;
   border: none;
   outline: none;
-  font-family: var(--villoz-font, "Plus Jakarta Sans", sans-serif);
+  font-family: var(--villoz-font, "Cinzel", sans-serif);
   padding: 0;
   text-align: center;
   background-color: transparent;
@@ -5894,7 +5898,7 @@ body.megamenu-popup-active .mobile-nav__content {
   position: relative;
   display: block;
   background-color: var(--villoz-white, #fff);
-  font-family: var(--villoz-font, "Plus Jakarta Sans", sans-serif);
+  font-family: var(--villoz-font, "Cinzel", sans-serif);
   float: right;
   text-align: center;
   border: none;
@@ -5995,7 +5999,7 @@ body.megamenu-popup-active .mobile-nav__content {
   position: relative;
   display: block;
   width: 340px !important;
-  font-family: var(--villoz-font, "Plus Jakarta Sans", sans-serif);
+  font-family: var(--villoz-font, "Cinzel", sans-serif);
 }
 @media (max-width: 360px) {
   .product__showing-sort .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
@@ -6362,7 +6366,7 @@ body.megamenu-popup-active .mobile-nav__content {
   -webkit-appearance: textfield;
   -moz-appearance: textfield;
   appearance: textfield;
-  font-family: var(--villoz-font, "Plus Jakarta Sans", sans-serif);
+  font-family: var(--villoz-font, "Cinzel", sans-serif);
   color: var(--villoz-text, #737a83);
   padding-left: 30px;
   outline: none;
@@ -6700,7 +6704,7 @@ body.megamenu-popup-active .mobile-nav__content {
   outline: none;
   font-size: 14px;
   color: var(--villoz-text, #737a83);
-  font-family: var(--villoz-font, "Plus Jakarta Sans", sans-serif);
+  font-family: var(--villoz-font, "Cinzel", sans-serif);
   display: block;
   font-weight: 500;
   margin-right: 10px;
@@ -6879,7 +6883,7 @@ body.megamenu-popup-active .mobile-nav__content {
   outline: none;
   font-size: 14px;
   color: var(--villoz-text, #737a83);
-  font-family: var(--villoz-font, "Plus Jakarta Sans", sans-serif);
+  font-family: var(--villoz-font, "Cinzel", sans-serif);
   display: block;
   font-weight: 500;
 }
@@ -6887,7 +6891,7 @@ body.megamenu-popup-active .mobile-nav__content {
   position: relative;
   display: block;
   width: 100% !important;
-  font-family: var(--villoz-font, "Plus Jakarta Sans", sans-serif);
+  font-family: var(--villoz-font, "Cinzel", sans-serif);
 }
 .checkout-page__input-box .bootstrap-select > .dropdown-toggle::after {
   display: none;
@@ -6951,7 +6955,7 @@ body.megamenu-popup-active .mobile-nav__content {
   height: 130px;
   width: 100%;
   background-color: var(--villoz-gray, #f0f6fd);
-  font-family: var(--villoz-font, "Plus Jakarta Sans", sans-serif);
+  font-family: var(--villoz-font, "Cinzel", sans-serif);
   padding: 20px 30px 30px;
   border: none;
   outline: none;
@@ -8161,7 +8165,7 @@ body.megamenu-popup-active .mobile-nav__content {
   line-height: 30px;
   color: var(--villoz-white, #fff);
   font-size: 12px;
-  font-family: var(--villoz-font, "Plus Jakarta Sans", sans-serif);
+  font-family: var(--villoz-font, "Cinzel", sans-serif);
   text-transform: uppercase;
   font-weight: 500;
   height: 46px;
@@ -9001,7 +9005,7 @@ body.megamenu-popup-active .mobile-nav__content {
   font-size: 16px;
   font-weight: 500;
   text-transform: capitalize;
-  font-family: var(--villoz-font, "Plus Jakarta Sans", sans-serif);
+  font-family: var(--villoz-font, "Cinzel", sans-serif);
   border: none;
   outline: none;
   padding: 0;
@@ -9038,7 +9042,7 @@ body.megamenu-popup-active .mobile-nav__content {
   font-size: 16px;
   font-weight: 500;
   text-transform: capitalize;
-  font-family: var(--villoz-font, "Plus Jakarta Sans", sans-serif);
+  font-family: var(--villoz-font, "Cinzel", sans-serif);
 }
 .banner-form__control .bootstrap-select > .dropdown-toggle {
   display: flex;
@@ -9425,7 +9429,7 @@ body.megamenu-popup-active .mobile-nav__content {
   height: 50px;
   position: absolute;
   right: 0;
-  top: 22%;
+  top: 150%;
   width: fit-content;
   font-size: 12px;
 }
@@ -9934,7 +9938,7 @@ body.megamenu-popup-active .mobile-nav__content {
   background-position: bottom center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: var(--villoz-base, #537eac);
+  background-color: var(--villoz-base);
   padding: 75px 0;
 }
 .feature-two__item {
@@ -9962,7 +9966,7 @@ body.megamenu-popup-active .mobile-nav__content {
   width: 68px;
   height: 68px;
   content: "";
-  background-color: rgba(var(--villoz-black-rgb, 19, 39, 66), 0.15);
+  background-color: #ffffff29;
   border-radius: 50%;
   z-index: -1;
 }
@@ -9972,7 +9976,7 @@ body.megamenu-popup-active .mobile-nav__content {
   margin: 0 0 15px;
 }
 .feature-two__item__text {
-  color: #c2ddf9;
+  color: White;
   font-size: 14px;
   line-height: 30px;
   margin: 0;
@@ -11993,7 +11997,7 @@ body.megamenu-popup-active .mobile-nav__content {
   position: relative;
   display: block;
   width: 340px !important;
-  font-family: var(--villoz-font, "Plus Jakarta Sans", sans-serif);
+  font-family: var(--villoz-font, "Cinzel", sans-serif);
 }
 @media (max-width: 360px) {
   .villa-page__showing-sort .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
@@ -12577,7 +12581,7 @@ body.megamenu-popup-active .mobile-nav__content {
   margin: 0;
   padding: 0;
   width: 100%;
-  font-family: var(--villoz-font, "Plus Jakarta Sans", sans-serif);
+  font-family: var(--villoz-font, "Cinzel", sans-serif);
 }
 .villa-details-three__calender-box .ui-datepicker .ui-datepicker-header {
   padding: 7px 0 10px;
@@ -12883,7 +12887,7 @@ body.megamenu-popup-active .mobile-nav__content {
   height: 50px;
   font-size: 14px;
   font-weight: 500;
-  font-family: var(--villoz-font, "Plus Jakarta Sans", sans-serif);
+  font-family: var(--villoz-font, "Cinzel", sans-serif);
   border: none;
   outline: none;
   padding: 0 30px;
@@ -12909,7 +12913,7 @@ body.megamenu-popup-active .mobile-nav__content {
   font-weight: 500;
   height: 50px;
   text-transform: capitalize;
-  font-family: var(--villoz-font, "Plus Jakarta Sans", sans-serif);
+  font-family: var(--villoz-font, "Cinzel", sans-serif);
 }
 .villa-details-three__form__control .bootstrap-select > .dropdown-toggle {
   display: flex;
@@ -13266,7 +13270,7 @@ body.boxed-wrapper .page-wrapper {
   margin: 0 0 27px;
 }
 .tab-one__content__info__text {
-  color: #c2ddf9;
+  color: White;
   line-height: 30px;
   margin: 0 0 7px;
 }
@@ -13408,7 +13412,7 @@ body.boxed-wrapper .page-wrapper {
   margin: 0 0 17px;
 }
 .tab-two__content__info__text {
-  color: #c2ddf9;
+  color: White;
   line-height: 30px;
   margin: 0;
 }
@@ -13531,7 +13535,7 @@ body.boxed-wrapper .page-wrapper {
   margin: 0 0 27px;
 }
 .tab-three__content__info__text {
-  color: #c2ddf9;
+  color: White;
   line-height: 30px;
   margin: 0 0 7px;
 }
@@ -13679,4 +13683,10 @@ select {
 
 .container-fluid .sec-title__title {
   font-size: 20px;
+}
+
+header.main-header__bottom.main-header--two.sticky-header.sticky-header--one-page.sticky-header--cloned{
+  background-image: url('../images/resources/Texture-vert-1.jpg');
+  background-repeat: repeat;
+  background-size: cover;
 }
